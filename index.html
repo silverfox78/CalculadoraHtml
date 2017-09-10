@@ -1,141 +1,24 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html lang="es" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>    <html lang="es" class="lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>    <html lang="es" class="lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
+<!DOCTYPE 5 >
 <html lang="es">
-<!--<![endif]-->
-
-<head>
-    <meta http-equiv="content-type" content="text/html; utf-8">
-    <meta name="language" content="Spanish">
-    <meta name="content-language" content="es">
-    <meta name="robots" content="all">
-    <meta name="Keywords" content="Calculadora, HTML" />
-    <meta http-equiv="X-UA-Compatible" content="IE=IE10">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/ponyo.ico">
-    <title>Calculadora HTML</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/js/patternfly.min.js"></script>
-</head>
-
-<body>
-    <div class="container">
-        <br/>
-        <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-            <div id="mensajes" class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10"></div>
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-            <div id="cargando" class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10"></div>
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-        </div>
-
-        <h1>
-            Proyectos y publicaciones...
-        </h1>
-        <br/>
-        <div class="blank-slate-pf">
-
-            <div class="row row-cards-pf">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-pf card-pf-view card-pf-view-select card-pf-view-single-select">
-                        <a href="http://dinosauriomoderno.blogspot.com">
-                            <div class="card-pf-body" style="height: 150px;">
-                                <div class="card-pf-top-element">
-                                    <img src="img/dinobase.png" style="height: 80px; width: 80px;">
-                                </div>
-                                <h2 class="card-pf-title text-center">
-                                    <span style="font-weight: bold;">Blog</span> - El Dinosaurio Moderno
-                                </h2>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-pf card-pf-view card-pf-view-select card-pf-view-single-select">
-                        <a href="https://github.com/silverfox78/ProjectEuler">
-                            <div class="card-pf-body" style="height: 150px;">
-                                <div class="card-pf-top-element">
-                                    <img src="img/Euler.png" style="height: 80px; width: 80px;">
-                                </div>
-                                <h2 class="card-pf-title text-center">
-                                    <span style="font-weight: bold;">Projecteuler.net </span> - Avance de problemas
-                                </h2>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-pf card-pf-view card-pf-view-select card-pf-view-single-select">
-                        <a href="https://github.com/silverfox78/SendaTI/blob/master/Fase%20-%200/readme.md">
-                            <div class="card-pf-body" style="height: 150px;">
-                                <div class="card-pf-top-element">
-                                    <img src="img/githublogo.svg" style="height: 80px; width: 80px;">
-                                </div>
-                                <h2 class="card-pf-title text-center">
-                                    <span style="font-weight: bold;">GitHub </span> - La senda TI
-                                </h2>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-pf card-pf-view card-pf-view-select card-pf-view-single-select">
-                        <a href="https://github.com/silverfox78/ValidaVersionIE">
-                            <div class="card-pf-body" style="height: 150px;">
-                                <div class="card-pf-top-element">
-                                    <img src="img/githublogo.svg" style="height: 80px; width: 80px;">
-                                </div>
-                                <h2 class="card-pf-title text-center">
-                                    <span style="font-weight: bold;">GitHub </span> - Validar la version del navegador
-                                </h2>
-                                <p class="card-pf-info text-center">
-                                    <a href="https://silverfox78.github.io/ValidaVersionIE/">
-                                        <span style="font-weight: bold;">Version Web</span>
-                                    </a>
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-pf card-pf-view card-pf-view-select card-pf-view-single-select">
-                        <a href="https://github.com/silverfox78/MenuJqueryJson">
-                            <div class="card-pf-body" style="height: 150px;">
-                                <div class="card-pf-top-element">
-                                    <img src="img/githublogo.svg" style="height: 80px; width: 80px;">
-                                </div>
-                                <h2 class="card-pf-title text-center">
-                                    <span style="font-weight: bold;">GitHub </span> - Cargar un menu con Json
-                                </h2>
-                                <p class="card-pf-info text-center">
-                                    <a href="https://silverfox78.github.io/MenuJqueryJson/index.html">
-                                        <span style="font-weight: bold;">Version Web</span>
-                                    </a>
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</body>
-
+  <head>
+        <title>Calculadora HTML</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="content-type" content="text/html; utf-8"/>
+        <meta name="language" content="Spanish"/>
+        <meta name="content-language" content="es"/>
+        <meta name="robots" content="all"/>
+        <meta name="Keywords" content="calculadora, html, jquery, bootstrap"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=IE10"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="shortcut icon" href="img/ponyo.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/js/patternfly.min.js"></script>
+  </head>
+  <body>
+    <h1>Calculadora Html</h1>
+  </body>
 </html>

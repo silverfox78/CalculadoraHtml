@@ -1,0 +1,33 @@
+{
+    "name": "calculadorahtml",
+    "version": "1.0.0",
+    "description": "Calculadora HTML",
+    "main": "index.html",
+    "dependencies": {
+        "gulp-install": "^1.1.0",
+        "pug": "^2.0.0-rc.4"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-bower": "0.0.13",
+        "gulp-notify": "^3.0.0",
+        "gulp-ruby-sass": "^2.1.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/silverfox78/CalculadoraHtml.git"
+    },
+    "keywords": [
+        "Calculadora",
+        "Jquery"
+    ],
+    "author": "Samuel Barrera",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/silverfox78/CalculadoraHtml/issues"
+    },
+    "homepage": "https://github.com/silverfox78/CalculadoraHtml#readme"
+}
