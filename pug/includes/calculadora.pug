@@ -3,7 +3,11 @@ mixin cuerpoCalculadora
         .form-group.form-group-lg.text-justify
             label.control-label.col-xs-12.col-sm-4.col-md-3.col-lg-3(for="resultado") Resultado
             .col-xs-12.col-sm-8.col-md-9.col-lg-9
-                input.form-control.input-lg(type="number", id="resultado", placeholder="Resultado", style="text-align:right;", disabled, value=0)
+                input.form-control.input-lg(type="number", id="resultado", style="text-align:right;", disabled, value=0)
+        .form-group.form-group-lg.text-justify
+            label.control-label.col-xs-12.col-sm-4.col-md-3.col-lg-3(for="resultado") Ultima operacion
+            .col-xs-12.col-sm-8.col-md-9.col-lg-9
+                input.form-control.input-lg(type="number", id="resultado", placeholder="Ultima operacion", style="text-align:center;", disabled)
         .form-group.form-group-lg.text-justify
             label.control-label.col-xs-12.col-sm-4.col-md-3.col-lg-3(for="valor") Valor
             .col-xs-12.col-sm-8.col-md-9.col-lg-9
