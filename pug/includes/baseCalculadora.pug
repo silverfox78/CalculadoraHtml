@@ -1,0 +1,32 @@
+mixin calculadora(titulo)
+    .panel.panel-primary.visible-xs-block.text-white.text-center
+        .panel-heading
+            .panel-title #{titulo}
+        .panel-body
+            include calculadora.pug
+            +cuerpoCalculadora()
+        .panel-footer.text-white.text-center Esto es un celular
+
+    .panel.panel-success.visible-sm-block.text-white.text-center
+        .panel-heading
+            .panel-title #{titulo}
+        .panel-body
+            include calculadora.pug
+            +cuerpoCalculadora()
+        .panel-footer.text-white.text-center Esto es un tablet
+
+    .panel.panel-warning.visible-md-block.text-white.text-center
+        .panel-heading
+            .panel-title #{titulo}
+        .panel-body
+            include calculadora.pug
+            +cuerpoCalculadora()
+        .panel-footer.text-white.text-center Esto es un escritorio
+
+    .panel.panel-info.visible-lg-block.text-white.text-center
+        .panel-heading
+            .panel-title #{titulo}
+        .panel-body
+            include calculadora.pug
+            +cuerpoCalculadora()
+        .panel-footer.text-white.text-center Esto es un PC

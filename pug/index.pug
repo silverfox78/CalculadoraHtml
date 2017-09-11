@@ -4,4 +4,11 @@ html(lang="es")
         include includes/base.pug
         +cabecera()
     body
-        h1 Calculadora Html
+        br        
+        .container
+            .row
+                .col-xs-12.col-sm-10.col-sm-offset-1.col-md-10.col-md-offset-1.col-lg-10.col-lg-offset-1
+                    .jumbotron.text-center.text-capitalize.visible-desktop.hidden-tablet.hidden-phone
+                        h2 taller de implementacion de aplicaciones web                    
+                    include includes/baseCalculadora.pug
+                    +calculadora('Calculadora HTML')
