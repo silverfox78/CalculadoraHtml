@@ -33,6 +33,18 @@ function Operacion(accion) {
                 resultado = 0;
             }
             break;
+        case "Cuadrado":
+            resultado = Math.pow(valor, 2);
+            if (isNaN(resultado)) {
+                resultado = 0;
+            }
+            break;
+        case "Raiz":
+            resultado = Math.sqrt(valor);
+            if (isNaN(resultado)) {
+                resultado = 0;
+            }
+            break;
     }
     $("#resultado").val(resultado);
 }
@@ -42,6 +54,8 @@ $(document).ready(function() {
     $("#btnRestar").click(function() { Operacion("Restar"); });
     $("#btnDividir").click(function() { Operacion("Dividir"); });
     $("#btnMultiplicar").click(function() { Operacion("Multiplicar"); });
+    $("#btnCuadrado").click(function() { Operacion("Cuadrado"); });
+    $("#btnRaiz").click(function() { Operacion("Raiz"); });
     $("#btnLimpiar").click(function() {
         $("#resultado").val("0");
         $("#valor").val("0");
